@@ -1,19 +1,15 @@
 # ZeroQ: A Novel Zero Shot Quantization Framework
-![Block](imgs/resnet18_sensitivity.png)
 
 
 
 ## Introduction
 
-This repository contains the PyTorch implementation for the **CVPR 2020** paper [*ZeroQ: A Novel Zero-Shot Quantization Framework*](https://arxiv.org/abs/2001.00281). Below are instructions for reproducing classification results. Please see [detection readme](https://github.com/amirgholami/ZeroQ/tree/master/detection) for instructions to reproduce object detection results.
-
-You can find a short video explanation of ZeroQ [here](https://news.developer.nvidia.com/nvidia-partners-present-ai-research-at-cvpr-2020/).
+This repository contains the PyTorch implementation for the **CVPR 2020** paper [*ZeroQ: A Novel Zero-Shot Quantization Framework*](https://arxiv.org/abs/2001.00281).
 
 ## TLDR;
 
 ```bash
 # Code is based on PyTorch 1.2 (Cuda10). Other dependancies could be installed as follows: 
-cd classification
 pip install -r requirements.txt --user
 # Set a symbolic link to ImageNet validation data (used only to evaluate model) 
 mkdir data
@@ -68,5 +64,4 @@ optional arguments:
 ZeroQ has been developed as part of the following paper. We appreciate it if you would please cite the following paper if you found the implementation useful for your work:
 
 Y. Cai, Z. Yao, Z. Dong, A. Gholami, M. W. Mahoney, K. Keutzer. *ZeroQ: A Novel Zero Shot Quantization Framework*, under review [[PDF](https://arxiv.org/pdf/2001.00281.pdf)].
-
 

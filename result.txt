@@ -1,0 +1,32 @@
+(base) com25@com25-System-Product-Name:~/ZeroQ/classification$ bash run.sh
+Testing resnet18 ...
+****** Full precision model loaded ******
+****** Data loaded ******
+****** Zero Shot Quantization Finished ******
+Testing |################################| (6250/6250) | ETA: 0:00:01 | top1: 0.7147
+Final acc: 71.47% (35735/50000)
+
+Testing |################################| (6250/6250) | ETA: 0:00:01 | top1: 0.71368
+Final acc: 71.37% (35684/50000)
+
+(base) com25@com25-System-Product-Name:~/ZeroQ/classification$ bash run.sh
+Testing resnet18 ...
+****** Full precision model loaded ******
+****** Data loaded ******
+****** Zero Shot Quantization Finished ******
+Testing |################################| (6250/6250) | ETA: 0:00:01 | top1: 0.7147
+Final acc: 71.47% (35735/50000)
+
+Testing |################################| (6250/6250) | ETA: 0:00:01 | top1: 0.69934
+Final acc: 69.93% (34967/50000)
+
+(base) com25@com25-System-Product-Name:~/ZeroQ/classification$ bash run.sh
+Testing resnet18 ...
+****** Full precision model loaded ******
+****** Data loaded ******
+****** Zero Shot Quantization Finished ******
+Testing |################################| (6250/6250) | ETA: 0:00:01 | top1: 0.7147
+Final acc: 71.47% (35735/50000)
+
+Testing |################################| (6250/6250) | ETA: 0:00:01 | top1: 0.25992
+Final acc: 25.99% (12996/50000)
